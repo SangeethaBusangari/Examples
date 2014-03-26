@@ -1,0 +1,7 @@
+<hibernate-mapping>
+<class name="Employee">
+<id name="no" column="eno" type="integer" length="10"/>
+<property name="name" column="ename" type="string" length="20"/>
+<property name="email" column="email" type="string" length="20"/>
+</class>
+</hibernate-mapping>
