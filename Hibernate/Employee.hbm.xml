@@ -1,0 +1,10 @@
+<hibernate-mapping>
+<class name="EmpBean" table="Employee1">
+<id name="eid" type="int" column="EID">
+<generateor class="assigned"/>
+</id>
+<property name="ename" column="EMPNAME" type="string" length="32" not-null="true"/>
+<property name="salary" column="SALARY" type="int" length="32" not-null="true"/>
+<property name="email" column="EMAIL" type="string" length="32" not-null="true"/>
+</class>
+</hibernate-mapping>
